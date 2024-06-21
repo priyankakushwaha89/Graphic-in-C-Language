@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<graphics.h>
+#include<conio.h>
+void main()
+{
+int gdriver=DETECT,gmode;
+initgraph(&gdriver,&gmode,"c:\\turboc3\\bgi");
+line(250,200,400,200);
+line(400,200,450,300);
+line(200,300,450,300);
+line(250,200,200,300);
+line(250,200,300,300);
+line(200,300,200,450);
+line(300,300,300,450);
+line(450,300,450,450);
+line(200,450,450,450);
+line(210,390,260,390);
+line(210,390,210,450);
+line(260,390,260,450);
+circle(390,350,20);
+putpixel(100,100,WHITE);
+putpixel(110,110,WHITE);
+putpixel(120,120,WHITE);
+putpixel(90,90,WHITE);
+putpixel(200,200,WHITE);
+putpixel(210,210,WHITE);
+getch();
+closegraph();
+}
